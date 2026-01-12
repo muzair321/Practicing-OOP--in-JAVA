@@ -16,3 +16,5 @@ withdraw(amount)
 checkBalance()
 Rules:
 Cannot withdraw more than balance
+done
+3. 

@@ -20,17 +20,17 @@ class BankAccount{
   public void deposit(double amount){
     if(amount >= 0){
       balance += amount;
-      System.out.println("Successfully Deposited");
+      System.out.println(" Successfully Deposited");
     }
     else{
-      System.out.println("Insufficient Balance");
+      System.out.println(" Insufficient Balance");
     }
   }
   public void withdraw(double amount){
     if(amount <= balance){
       balance -= amount;
     }
-    System.out.println("Amount Withdrawn, Remaining Balance: " + balance);
+    System.out.println(" Remaining Balance: " + balance);
   }
   public void checkBalance(){
     System.out.println("  Holder Name: " + holderName + "\n  Account Number: " + accountNo + "\n  Balance: " + balance);

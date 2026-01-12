@@ -1,5 +1,12 @@
 public class task2{
   public static void main(String[] args){
+    BankAccount bank = new BankAccount("12345678", "Muhammad Uzair");
+    bank.deposit(10000);
+    bank.checkBalance();
+    bank.withdraw(12000);
+    bank.checkBalance();
+    bank.withdraw(2000);
+    bank.checkBalance();
   }
 }
 class BankAccount{
@@ -13,8 +20,11 @@ class BankAccount{
   public void deposit(double amount){
     if(amount >= 0){
       balance += amount;
+      System.out.println("Successfully Deposited");
     }
-    System.out.println("Successfully Deposited");
+    else{
+      System.out.println("Insufficient Balance");
+    }
   }
   public void withdraw(double amount){
     if(amount <= balance){

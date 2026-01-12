@@ -9,9 +9,9 @@ public class task1{
   }
 }
 class Student{
-  String  name;
-  String roll;
-  double marks;
+  private String  name;
+  private String roll;
+  private double marks;
   Student(String name, String roll, double marks){
     this.name = name;
     this.roll = roll;

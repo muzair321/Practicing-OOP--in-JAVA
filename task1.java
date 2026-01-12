@@ -1,5 +1,11 @@
 public class task1{
   public static void main(String[] args){
+    Student uzi = new Student("Muhammad Uzair", "FA25-BCS-000", 77);
+    uzi.displayInfo();
+    Student ahm = new Student("Ahmad Ali", "FA25-BCS-000", 80);
+    ahm.displayInfo();
+    Student ham = new Student("Hamza Farooq", "FA25-BCS-000", 85);
+    ham.displayInfo();
   }
 }
 class Student{

@@ -3,11 +3,11 @@ public class task6{
   }
 }
 class Person{
-  private String  name;
-  private int age;
+  String  name;
+  int age;
 }
 class Student extends Person{
-  String roll;
+  private String roll;
   Student(String name, int age, String roll){
     super.name = name;
     super.age = age;
@@ -15,7 +15,7 @@ class Student extends Person{
   }
 }
 class Teacher extends Person{
-  String subject;
+  private String subject;
   Student(String name, int age, String subject){
     super.name = name;
     super.age = age;

@@ -45,3 +45,7 @@ Student → rollNo<br>
 Teacher → subject<br>
 Each class should have a display() method.<br>
 done<br>
+7. Animal Sounds<br>
+Create:<br>
+Animal → method makeSound()<br>
+Dog, Cat, Cow override it<br>

@@ -1,5 +1,9 @@
 public class task6{
   public static void main(String[] args){
+    Person stu = new Student("Muhammad Uzair", 20, "FA25-BCS-000");
+    stu.display();
+    Person teach = new Teacher("Ahmad Ali", 53, "OOP");
+    teach.display();
   }
 }
 class Person{
@@ -23,7 +27,7 @@ class Student extends Person{
 }
 class Teacher extends Person{
   private String subject;
-  Student(String name, int age, String subject){
+  Teacher(String name, int age, String subject){
     super.name = name;
     super.age = age;
     this.subject = subject;

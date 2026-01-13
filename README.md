@@ -31,3 +31,9 @@ Private: username, password<br>
 Method login(inputUser, inputPass)<br>
 Print “Login successful” or “Invalid credentials”<br>
 done<br>
+5. Shape Hierarchy<br>
+Create:<br>
+Shape class → method calculateArea()<br>
+Rectangle → length, width<br>
+Circle → radius<br>
+Override calculateArea() in each subclass.<br>

@@ -5,6 +5,9 @@ public class task6{
 class Person{
   String  name;
   int age;
+  void display(){
+    System.out.println("Name: " + name + "\nAge: " + age);
+  }
 }
 class Student extends Person{
   private String roll;
@@ -13,6 +16,10 @@ class Student extends Person{
     super.age = age;
     this.roll = roll;
   }
+  @Override
+  void display(){
+    System.out.println("Name: " + name + "\nAge: " + age + "\nRoll Number: " + roll);
+  }
 }
 class Teacher extends Person{
   private String subject;
@@ -20,5 +27,9 @@ class Teacher extends Person{
     super.name = name;
     super.age = age;
     this.subject = subject;
+  }
+  @Override
+  void display(){
+    System.out.println("Name: " + name + "\nAge: " + age + "\nSubject: " + subject);
   }
 }

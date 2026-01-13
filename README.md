@@ -37,3 +37,10 @@ Shape class → method calculateArea()<br>
 Rectangle → length, width<br>
 Circle → radius<br>
 Override calculateArea() in each subclass.<br>
+done<br>
+6. Person → Student → Teacher<br>
+Create:<br>
+Person → name, age<br>
+Student → rollNo<br>
+Teacher → subject<br>
+Each class should have a display() method.<br>

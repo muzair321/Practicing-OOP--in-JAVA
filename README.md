@@ -1,14 +1,14 @@
 # Practicing-OOP--in-JAVA
 my introduction to object oriented programming in java
 Tasks:
-1. Student Class
+1. Student Class 
 Create a Student class with:
 Attributes: name, rollNo, marks
 Constructor to initialize values
 Method displayInfo()
 In main, create 3 students and print their info.
 done
-2. Create a BankAccount class:
+3. Create a BankAccount class:
 Attributes: accountNo, holderName, balance
 Methods:
 deposit(amount)
@@ -17,7 +17,7 @@ checkBalance()
 Rules:
 Cannot withdraw more than balance
 done
-3. Employee Salary System\n
+4. Employee Salary System
 Create Employee class:
 Private variables: id, name, salary
 Public methods:

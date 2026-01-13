@@ -17,4 +17,11 @@ checkBalance()
 Rules:
 Cannot withdraw more than balance
 done
-3. 
+3. Employee Salary System\n
+Create Employee class:
+Private variables: id, name, salary
+Public methods:
+setSalary() (salary must be > 0)
+getSalary()
+displayEmployee()
+done

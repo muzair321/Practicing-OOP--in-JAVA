@@ -1,5 +1,9 @@
 public class task5{
   public static void main(String[] args){
+    Shape rect = new Rectangle();
+    Shape circ = new Circle();
+    System.out.println("Area Of Rectangle Is: " + rect.calculateArea(20,40));
+    System.out.println("Area Of Circle Is: " + circ.calculateArea(10));
   }
 }
 class Shape{

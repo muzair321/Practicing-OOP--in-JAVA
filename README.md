@@ -49,3 +49,9 @@ done<br>
 Create:<br>
 Animal → method makeSound()<br>
 Dog, Cat, Cow override it<br>
+done<br>
+8. Payment System<br>
+Create:<br>
+Payment class → method pay()<br>
+CashPayment, CardPayment, OnlinePayment<br>
+Call pay() using a Payment reference.<br>

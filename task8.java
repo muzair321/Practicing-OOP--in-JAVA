@@ -1,5 +1,13 @@
 public class task8{
   public static void main(String[] args){
+    Payment pay = new Payment();
+    Payment cash = new CashPayment();
+    Payment card = new CardPayment();
+    Payment online = new OnlinePayment();
+    pay.pay();
+    cash.pay();
+    card.pay();
+    online.pay();
   }
 }
 class Payment{

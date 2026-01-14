@@ -1,5 +1,5 @@
 public class task9{
-  public static void main(Stringl[] args){
+  public static void main(String[] args){
     Vehicle car = new Car();
     Vehicle bike = new Bike();
     car.start();
@@ -16,13 +16,13 @@ abstract class Vehicle{
 }
 class Car extends Vehicle{
   @Override
-  void start(){
+  public void start(){
     System.out.println("Car Started");
   }
 }
 class Bike extends Vehicle{
   @Override
-  void start(){
+  public void start(){
     System.out.println("Bike Started");
   }
 }

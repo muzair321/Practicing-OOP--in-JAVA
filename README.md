@@ -55,3 +55,11 @@ Create:<br>
 Payment class → method pay()<br>
 CashPayment, CardPayment, OnlinePayment<br>
 Call pay() using a Payment reference.<br>
+done<br>
+9. Vehicle System<br>
+Create an abstract class Vehicle:<br>
+Abstract method start()<br>
+Concrete method stop()<br>
+Implement:<br>
+Car<br>
+Bike<br>

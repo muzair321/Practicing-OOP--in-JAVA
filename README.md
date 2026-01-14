@@ -63,3 +63,10 @@ Concrete method stop()<br>
 Implement:<br>
 Car<br>
 Bike<br>
+done<br>
+10. Interface – Remote Control<br>
+Create interface Remote:<br>
+Methods: turnOn(), turnOff()<br>
+Implement it in:<br>
+TV<br>
+AC<br>
